@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Npgsql" Version="5.0.11" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <ProjectReference Include="../AvoskaMgmt.Core/AvoskaMgmt.Core.csproj" />
+    <ProjectReference Include="../AvoskaMgmt.Infrastructure/AvoskaMgmt.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
