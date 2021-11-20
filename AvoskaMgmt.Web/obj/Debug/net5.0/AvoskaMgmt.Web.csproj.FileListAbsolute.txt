@@ -42,3 +42,8 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Core.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Infrastructure.pdb
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/web.config
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/appsettings.Development.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/appsettings.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/AvoskaMgmt.Web.deps.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/AvoskaMgmt.Web.runtimeconfig.json

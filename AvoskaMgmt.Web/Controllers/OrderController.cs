@@ -26,7 +26,7 @@ namespace AvoskaMgmt.Web.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<OrderProductDto> Get(int id)
+        public IEnumerable<OrderProductTagDto> Get(int id)
         {
             var rng = new Random();
             return _orderRepository.Get(id).ToList();
