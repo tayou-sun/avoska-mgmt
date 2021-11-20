@@ -50,15 +50,29 @@ public class OrderRepository : IOrderRepository
         appDbContext.SaveChanges(); */
     }
 
-    public  IEnumerable<OrderProductDto> Get(int id)
+    public  IEnumerable<OrderProductTagDto> Get(int id)
     {
 
         var prod = appDbContext.Orders.OrderByDescending(x=>x.Id).First();
         id = prod.Id;
         var productOrders = appDbContext.Orders.Include(x=>x.OrderProducts).FirstOrDefault(x=>x.Id == id);
-        var images = appDbContext.Products.Where(x=>productOrders.OrderProducts.Select(y=>y.Name).Contains(x.Name)).ToList();
+        var images = appDbContext.Products.Include(x=>x.Tags).Where(x=>productOrders.OrderProducts.Select(y=>y.Name).Contains(x.Name)).ToList();
 
-//var a = productOrders.OrderProducts.Select(x=>new OrderProductDto(){Name = x.Name, ImageUrl = images.FirstOrDefault(y=>y.Name == x.Name).ImageUrl, Price = x.Price}).ToList();
-        return productOrders.OrderProducts.Select(x=>new OrderProductDto(){Name = x.Name, ImageUrl = images.FirstOrDefault(y=>y.Name == x.Name).ImageUrl, Price = x.Price, Count = x.Count});
+
+var bb  = productOrders.OrderProducts.Select(x=>
+new OrderProductDto(){
+    Name = x.Name, 
+    ImageUrl = images.FirstOrDefault(y=>y.Name == x.Name).ImageUrl, 
+    Price = x.Price, Count = x.Count, 
+    TagName = images.FirstOrDefault(y=>y.Name == x.Name).Tags.First().Name})
+    .GroupBy(x=>x.TagName).Select(x=>new OrderProductTagDto(){Tag = x.Key, Products = x.Select(y=>new OrderProductDto(){
+
+          Name = y.Name, 
+    ImageUrl = images.FirstOrDefault(z=>z.Name == y.Name).ImageUrl, 
+    Price = y.Price, 
+    Count = y.Count
+    }).ToList()}).ToList();
+    //var a = productOrders.OrderProducts.Select(x=>new OrderProductDto(){Name = x.Name, ImageUrl = images.FirstOrDefault(y=>y.Name == x.Name).ImageUrl, Price = x.Price}).ToList();
+        return bb;
     }
 }
