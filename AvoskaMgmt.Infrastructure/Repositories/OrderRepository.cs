@@ -53,7 +53,8 @@ public class OrderRepository : IOrderRepository
     public  IEnumerable<OrderProductTagDto> Get(int id)
     {
 
-        var prod = appDbContext.Orders.OrderByDescending(x=>x.Id).First();
+       // var prod = appDbContext.Orders.OrderByDescending(x=>x.Id).First();
+       var prod = appDbContext.Orders.FirstOrDefault(x=>x.Id == id);
         id = prod.Id;
         var productOrders = appDbContext.Orders.Include(x=>x.OrderProducts).FirstOrDefault(x=>x.Id == id);
         var images = appDbContext.Products.Include(x=>x.Tags).Where(x=>productOrders.OrderProducts.Select(y=>y.Name).Contains(x.Name)).ToList();
