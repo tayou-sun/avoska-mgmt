@@ -28,6 +28,7 @@ namespace AvoskaMgmt.Web
               options.UseNpgsql(Configuration.GetSection(nameof(ConnectionStrings)).GetSection("NpgSql").Value));
 
 services.AddScoped<IOrderRepository, OrderRepository>();
+services.AddScoped<IResultRepository, ResultRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AvoskaMgmt.Web", Version = "v1" });

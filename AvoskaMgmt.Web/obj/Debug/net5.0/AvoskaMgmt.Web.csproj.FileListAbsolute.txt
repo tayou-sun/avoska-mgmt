@@ -52,3 +52,5 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/out/appsettings.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/out/AvoskaMgmt.Web.deps.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/out/AvoskaMgmt.Web.runtimeconfig.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Humanizer.dll
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
