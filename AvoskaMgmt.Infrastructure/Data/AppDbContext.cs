@@ -17,7 +17,8 @@ namespace CStuffControl.Infrastructure
         public DbSet<OrderProduct> OrderProducts { get; set; }
    public DbSet<Tag> Tags { get; set; }
      public DbSet<Order> Orders { get; set; }
- public DbSet<Product> Products { get; set; }
+     public DbSet<Result> Results { get; set; }
+      public DbSet<Product> Products { get; set; }
 
 /* 
         public DbSet<Product> Products { get; set; }

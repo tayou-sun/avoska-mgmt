@@ -13,3 +13,6 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Debug/net5.0/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Debug/net5.0/ref/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Debug/net5.0/AvoskaMgmt.Infrastructure.pdb
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Debug/net5.0/AvoskaMgmt.Infrastructure.runtimeconfig.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Debug/net5.0/AvoskaMgmt.Infrastructure.runtimeconfig.dev.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Debug/net5.0/AvoskaMgmt.Infrastructure.genruntimeconfig.cache
