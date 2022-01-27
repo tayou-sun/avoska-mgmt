@@ -36,7 +36,7 @@ services.AddScoped<IResultRepository, ResultRepository>();
 
                services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
            {
-               builder.WithOrigins("http://localhost:3000")
+               builder.AllowAnyOrigin()
                       .AllowAnyMethod()
                       .AllowAnyHeader();
            }));
