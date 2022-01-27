@@ -1,9 +1,16 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 public class Result {
-    public int Id {get;set;}
+    [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id {get;set;}
     public string Check {get;set;}
-    public int OrderId {get;set;}
+    
+    public string Comment {get;set;}
+    
+        public int OrderId {get;set;}
     public int Payment {get;set;}
 
     public decimal RealPrice {get;set;}

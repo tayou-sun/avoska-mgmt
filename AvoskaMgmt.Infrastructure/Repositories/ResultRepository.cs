@@ -11,6 +11,26 @@ public class ResultRepository : IResultRepository
         this.appDbContext = appDbContext;
     }
 
+    public void Create(ResultSaveDto res)
+    {
+       
+        var result = new Result(){
+           
+    OrderId = res.OrderId,
+      Payment = res.Payment,
+
+      RealPrice = res.RealPrice,
+      Date =  DateTime.Parse(res.Date),
+      Comment = res.Comment
+       
+        };
+
+        appDbContext.Results.Add( result  );
+        appDbContext.SaveChanges();
+
+
+    }
+
     public IEnumerable<ResultDto> Get()
     {
         var res = appDbContext.Results.ToList();
@@ -24,7 +44,8 @@ public class ResultRepository : IResultRepository
             RealPrice = x.RealPrice,
             StorePrice = x.StorePrice,
             Order = orders.FirstOrDefault(y=>y.Id == x.OrderId),
-            Date = x.Date
+            Date = x.Date,
+            Comment = x.Comment 
             
         });
 

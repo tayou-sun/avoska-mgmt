@@ -30,5 +30,14 @@ namespace AvoskaMgmt.Web.Controllers
         {
             return _resultRepository.Get().ToList();
         }
+
+
+        
+        [HttpPost]
+        public void Create([FromBody] ResultSaveDto res)
+        {
+            var a = new ResultSaveDto();
+           _resultRepository.Create(res);
+        }
     }
 }

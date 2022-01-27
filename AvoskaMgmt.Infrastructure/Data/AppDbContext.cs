@@ -9,10 +9,11 @@ namespace CStuffControl.Infrastructure
     public class AppDbContext : IdentityDbContext
     {
 
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             // Database.EnsureDeleted();   // удаляем бд со старой схемой
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         } 
         public DbSet<OrderProduct> OrderProducts { get; set; }
    public DbSet<Tag> Tags { get; set; }

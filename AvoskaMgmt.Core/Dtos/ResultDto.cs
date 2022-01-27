@@ -9,7 +9,8 @@ public decimal Price {get;set;}
 
     public decimal RealPrice {get;set;}
     public decimal StorePrice {get;set;}
-public DateTime Date {get;set;}
+      public string Comment {get;set;}
+      public DateTime Date {get;set;}
 
 
 }
