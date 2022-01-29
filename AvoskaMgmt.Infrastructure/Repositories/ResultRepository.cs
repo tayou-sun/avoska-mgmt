@@ -55,9 +55,10 @@ var day = int.Parse(date.Substring(6,2));
            
     OrderId = res.OrderId,
      
-
+Payment = res.Type,
       RealPrice =payment,
-      Date =  s
+      Date =  s,
+      
 
        
         };
