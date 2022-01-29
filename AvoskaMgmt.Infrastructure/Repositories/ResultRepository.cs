@@ -58,6 +58,7 @@ var day = int.Parse(date.Substring(6,2));
 Payment = res.Type,
       RealPrice =payment,
       Date =  s,
+      Check = res.Data
       
 
        
