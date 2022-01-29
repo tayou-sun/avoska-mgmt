@@ -31,6 +31,41 @@ public class ResultRepository : IResultRepository
 
     }
 
+    public void CreateFromCheck(ResultCheckDto res)
+    {
+      //  res.Data = "t=20211225T2232&s=2337.59&fn=9960440301200340&i=9794&fp=2189871824&n=1";
+        
+        int pFrom = res.Data.IndexOf("s=") + "s=".Length;
+        int pTo = res.Data.LastIndexOf("&fn=");
+         
+        var sum = res.Data.Substring(pFrom, pTo - pFrom);
+
+        pFrom = res.Data.IndexOf("t=") + "t=".Length;
+        pTo = res.Data.LastIndexOf("&s");
+        var date = res.Data.Substring(pFrom, pTo - pFrom);
+
+var year = int.Parse(date.Substring(0,4));
+var month = int.Parse(date.Substring(4,2));
+var day = int.Parse(date.Substring(6,2));
+
+        var s = new DateTime(year, month, day);
+        var payment = Decimal.ToInt32(decimal.Parse(sum));
+
+       var resultObj = new Result(){
+           
+    OrderId = res.OrderId,
+     
+
+      RealPrice =payment,
+      Date =  s
+
+       
+        };
+
+        appDbContext.Results.Add( resultObj  );
+        appDbContext.SaveChanges();
+    }
+
     public IEnumerable<ResultDto> Get()
     {
         var res = appDbContext.Results.ToList();

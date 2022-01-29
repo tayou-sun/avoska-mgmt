@@ -39,5 +39,14 @@ namespace AvoskaMgmt.Web.Controllers
             var a = new ResultSaveDto();
            _resultRepository.Create(res);
         }
+
+         
+        [HttpPost("check")]
+        public void CreateFromCheck([FromBody] ResultCheckDto res)
+        {
+           
+
+           _resultRepository.CreateFromCheck(res);
+        }
     }
 }

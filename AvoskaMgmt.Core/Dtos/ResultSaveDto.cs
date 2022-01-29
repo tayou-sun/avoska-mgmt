@@ -9,4 +9,6 @@ public class ResultSaveDto
     public string Date { get; set; }
 
  public string Comment { get; set; }
+
+
 }
