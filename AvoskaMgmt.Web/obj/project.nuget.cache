@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4u8nDjFvcxqtmC9S+K5plnhhsTQbJ0xG/Xep8Iz9jKRJchbLm32sgq0H0d5OGxTS2skf1RtJcMEX2LsOAdLMmg==",
+  "dgSpecHash": "RNX+T0nRhaL9uxnDXrWjDxNFKCvIh5dK5JoUppovOvZqijefMDHtGDE1sL4qbZNZ9wUUcmVNd/j9JSUErJarPA==",
   "success": true,
   "projectFilePath": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/AvoskaMgmt.Web.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,8 @@
     "/Users/ekaterina/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/ekaterina/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/ekaterina/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/ekaterina/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "/Users/ekaterina/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/Users/ekaterina/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.16/microsoft.netcore.app.host.osx-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }

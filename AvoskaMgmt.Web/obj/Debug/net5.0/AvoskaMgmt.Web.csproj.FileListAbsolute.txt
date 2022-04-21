@@ -4,7 +4,6 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web.runtimeconfig.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web.runtimeconfig.dev.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web.dll
-/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/ref/AvoskaMgmt.Web.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Microsoft.OpenApi.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -18,7 +17,6 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/AvoskaMgmt.Web.MvcApplicationPartsAssemblyInfo.cs
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/AvoskaMgmt.Web.MvcApplicationPartsAssemblyInfo.cache
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/staticwebassets/AvoskaMgmt.Web.StaticWebAssets.Manifest.cache
-/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/staticwebassets/AvoskaMgmt.Web.StaticWebAssets.xml
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/scopedcss/bundle/AvoskaMgmt.Web.styles.css
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/AvoskaMgmt.Web.RazorTargetAssemblyInfo.cache
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/AvoskaMgmt.Web.csproj.CopyComplete
@@ -54,3 +52,6 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/out/out/AvoskaMgmt.Web.runtimeconfig.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Humanizer.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web.StaticWebAssets.xml
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/Debug/net5.0/AvoskaMgmt.Web
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/Debug/net5.0/refint/AvoskaMgmt.Web.dll
