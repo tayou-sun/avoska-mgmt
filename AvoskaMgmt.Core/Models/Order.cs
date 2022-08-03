@@ -16,4 +16,6 @@ public class Order{
     public string Comment {get;set;}
 
     public DateTime CreateDate {get;set;}
+
+    public List<StatusOrder> StatusOrders {get;set;}
 }

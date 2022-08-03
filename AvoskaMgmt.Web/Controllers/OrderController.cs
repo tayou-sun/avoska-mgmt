@@ -11,7 +11,7 @@ namespace AvoskaMgmt.Web.Controllers
     [Route("[controller]")]
     public class OrderController : ControllerBase
     {
-         private readonly IOrderRepository _orderRepository;
+        private readonly IOrderRepository _orderRepository;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -22,9 +22,9 @@ namespace AvoskaMgmt.Web.Controllers
         public OrderController(ILogger<WeatherForecastController> logger, IOrderRepository orderRepository)
         {
             _logger = logger;
-             _orderRepository = orderRepository;
+            _orderRepository = orderRepository;
         }
-        
+
 
         [HttpGet]
         public IEnumerable<OrderProductTagDto> Get(int id)
@@ -32,5 +32,20 @@ namespace AvoskaMgmt.Web.Controllers
             var rng = new Random();
             return _orderRepository.Get(id).ToList();
         }
+
+        [HttpGet("status")]
+        public StatusDto GetCurrentStatus(int id)
+        {
+            var rng = new Random();
+            return _orderRepository.GetStatus(id);
+        }
+
+        [HttpPost("status")]
+        public StatusDto SetNextStatus(Order order)
+        {
+            var rng = new Random();
+            return _orderRepository.SetStatus(order.Id);
+        }
+
     }
 }

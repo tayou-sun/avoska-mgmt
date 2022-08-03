@@ -13,4 +13,6 @@ public class OrderDto
     public string Comment { get; set; }
 
     public DateTime CreateDate { get; set; }
+
+    public StatusOrder StatusOrder {get;set;}
 }
