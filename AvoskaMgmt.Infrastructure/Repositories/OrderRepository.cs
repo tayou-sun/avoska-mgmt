@@ -189,7 +189,7 @@ public class OrderRepository : IOrderRepository
        var statusDto = new StatusDto{
            Id = res.Status.Id,
            Name = res.Status.Name,
-           NextId = res.Status.Next.Id
+           NextId = res.Status?.Next?.Id
        };
 
        return statusDto;
