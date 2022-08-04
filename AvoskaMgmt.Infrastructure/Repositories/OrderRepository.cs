@@ -125,6 +125,7 @@ public class OrderRepository : IOrderRepository
             o.Name = x.Name;
             o.ImageUrl = images?.FirstOrDefault(y => y.Name == x.Name)?.ImageUrl;
             o.Price = x.Price;
+            o.NewPrice = x.NewPrice;
             o.Count = x.Count;
             o.TagName = images?.FirstOrDefault(y => y.Name == x.Name).Tags?.First()?.Name;
 
@@ -142,6 +143,7 @@ public class OrderRepository : IOrderRepository
                 ImageUrl = images?.FirstOrDefault(z => z.Name == y.Name)?.ImageUrl,
                 Price = y.Price,
                 Count = y.Count,
+                NewPrice = y.NewPrice
             
             }).ToList()
         }).ToList();
