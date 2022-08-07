@@ -1,6 +1,5 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/AvoskaMgmt.Infrastructure.deps.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/AvoskaMgmt.Infrastructure.dll
-/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/ref/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/AvoskaMgmt.Infrastructure.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/AvoskaMgmt.Core.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/Release/net5.0/AvoskaMgmt.Core.pdb
@@ -13,3 +12,7 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Release/net5.0/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Release/net5.0/ref/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/Release/net5.0/AvoskaMgmt.Infrastructure.pdb
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/release/net5.0/AvoskaMgmt.Infrastructure.runtimeconfig.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/bin/release/net5.0/AvoskaMgmt.Infrastructure.runtimeconfig.dev.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/release/net5.0/refint/AvoskaMgmt.Infrastructure.dll
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/obj/release/net5.0/AvoskaMgmt.Infrastructure.genruntimeconfig.cache
