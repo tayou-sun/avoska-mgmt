@@ -50,8 +50,12 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/appsettings.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/AvoskaMgmt.Web.deps.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/AvoskaMgmt.Web.runtimeconfig.json
-/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/AvoskaMgmt.Web.StaticWebAssets.xml
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/AvoskaMgmt.Web
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/Humanizer.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/release/net5.0/refint/AvoskaMgmt.Web.dll
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/out/web.config
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/out/appsettings.Development.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/out/appsettings.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/out/AvoskaMgmt.Web.deps.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/bin/release/net5.0/out/out/out/AvoskaMgmt.Web.runtimeconfig.json
