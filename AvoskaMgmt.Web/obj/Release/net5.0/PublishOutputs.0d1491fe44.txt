@@ -1,3 +1,5 @@
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/out/web.config
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/web.config
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/appsettings.Development.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/appsettings.json
@@ -5,8 +7,11 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/appsettings.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/AvoskaMgmt.Web.deps.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/AvoskaMgmt.Web.runtimeconfig.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/out/appsettings.Development.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/out/appsettings.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/out/AvoskaMgmt.Web.deps.json
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/out/out/AvoskaMgmt.Web.runtimeconfig.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web.dll
-/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web.deps.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web.runtimeconfig.json
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -29,3 +34,4 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Infrastructure.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Core.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Infrastructure.pdb
+/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/out/AvoskaMgmt.Web.deps.json
