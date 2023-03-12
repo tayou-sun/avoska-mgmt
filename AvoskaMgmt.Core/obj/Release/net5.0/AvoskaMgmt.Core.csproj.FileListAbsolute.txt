@@ -10,3 +10,15 @@
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Core/obj/Release/net5.0/ref/AvoskaMgmt.Core.dll
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Core/obj/Release/net5.0/AvoskaMgmt.Core.pdb
 /Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Core/obj/release/net5.0/refint/AvoskaMgmt.Core.dll
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\bin\release\net5.0\AvoskaMgmt.Core.deps.json
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\bin\release\net5.0\AvoskaMgmt.Core.dll
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\bin\release\net5.0\AvoskaMgmt.Core.pdb
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.AssemblyInfo.cs
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.dll
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\refint\AvoskaMgmt.Core.dll
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\AvoskaMgmt.Core.pdb
+C:\Users\Home\Desktop\programms\avoska-mgmt\AvoskaMgmt.Core\obj\release\net5.0\ref\AvoskaMgmt.Core.dll

@@ -1193,19 +1193,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/ekaterina/.nuget/packages/": {}
+    "C:\\Users\\Home\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/AvoskaMgmt.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Web\\AvoskaMgmt.Web.csproj",
       "projectName": "AvoskaMgmt.Web",
-      "projectPath": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/AvoskaMgmt.Web.csproj",
-      "packagesPath": "/Users/ekaterina/.nuget/packages/",
-      "outputPath": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Web/obj/",
+      "projectPath": "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Web\\AvoskaMgmt.Web.csproj",
+      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ekaterina/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1217,11 +1217,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Core/AvoskaMgmt.Core.csproj": {
-              "projectPath": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Core/AvoskaMgmt.Core.csproj"
+            "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Core\\AvoskaMgmt.Core.csproj": {
+              "projectPath": "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Core\\AvoskaMgmt.Core.csproj"
             },
-            "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/AvoskaMgmt.Infrastructure.csproj": {
-              "projectPath": "/Users/ekaterina/Documents/avoska-mgmt/AvoskaMgmt.Infrastructure/AvoskaMgmt.Infrastructure.csproj"
+            "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Infrastructure\\AvoskaMgmt.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Home\\Desktop\\programms\\avoska-mgmt\\AvoskaMgmt.Infrastructure\\AvoskaMgmt.Infrastructure.csproj"
             }
           }
         }
@@ -1269,12 +1269,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[5.0.16, 5.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1283,7 +1277,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
