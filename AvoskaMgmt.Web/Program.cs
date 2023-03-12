@@ -13,6 +13,7 @@ namespace AvoskaMgmt.Web
     {
         public static void Main(string[] args)
         {
+           
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -20,6 +21,7 @@ namespace AvoskaMgmt.Web
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                     webBuilder.UseUrls("https://*:51810", "http://*:51811");
                     webBuilder.UseStartup<Startup>();
                 });
     }
